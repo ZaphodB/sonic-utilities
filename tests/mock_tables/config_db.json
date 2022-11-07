@@ -573,7 +573,8 @@
         "vlanid": "4000"
     },
     "VLAN_INTERFACE|Vlan1000": {
-        "NULL": "NULL"
+        "NULL": "NULL",
+        "static_anycast_gateway": "true"
     },
     "VLAN_INTERFACE|Vlan2000": {
         "proxy_arp": "enabled"
@@ -2618,5 +2619,8 @@
         "dst_port": "Ethernet44",
         "src_port": "Ethernet40,Ethernet48",
         "direction": "RX"
+    },
+    "SAG|GLOBAL": {
+        "gateway_mac": "00:11:22:33:44:55"
     }
 }
